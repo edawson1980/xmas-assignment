@@ -1,4 +1,6 @@
-.row{display:flex;}
+.intro{text-align:center;}
+.row{display:flex;padding:30px 160px;justify-content: space-around;}
+.generator h1{text-align:center;}
 button{
   background-color: blue;
   color: #fff;
