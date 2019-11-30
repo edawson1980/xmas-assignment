@@ -16,6 +16,8 @@ function assignment(){
  let index = Math.floor(Math.random()* sibs.length);
  let ranAss = sibs[index];
 
+ sibs.splice(index,1);
+
 
 
   document.getElementById('number').innerHTML = ranAss;
