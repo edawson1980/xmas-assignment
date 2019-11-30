@@ -1,16 +1,22 @@
 let sibs = [];
-let randoms = 6;
+const randoms = 6;
+
 
 function assignment(){
 
-  for(let i = 0; i < randoms.length; i++){
+  for(let i=0;i<randoms;i++){
     sibs.push(i);
   }
 
- let random = Math.floor((Math.random()*6)+1);
 
 
 
-  document.getElementById('number').innerHTML = random;
-  console.log(random);
+
+
+ // let ranAss = Math.floor(Math.random()* sibs.length);
+
+
+
+  document.getElementById('number').innerHTML = ranAss;
+  console.log(ranAss);
 }
