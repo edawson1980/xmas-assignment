@@ -1,25 +1,72 @@
-let sibs = [];
-const randoms = 7;
+function assignment1(){
+  let sibs = [2,3,4,5,6];
 
 
-function assignment(){
-
-  for(let i=1;i<randoms;i++){
-    sibs.push(i);
-  }
+  let ranAss = Math.floor((Math.random()* sibs.length)+1);
 
 
+  // sibs.splice(index,1);
+
+  document.getElementById('numberOne').innerHTML = ranAss;
+  console.log(ranAss);
+}
+function assignment2(){
+  let sibs = [1,3,4,5,6];
 
 
+  let ranAss = Math.floor((Math.random()* sibs.length)+1);
 
 
- let index = Math.floor(Math.random()* sibs.length);
- let ranAss = sibs[index];
+  // sibs.splice(index,1);
 
- sibs.splice(index,1);
+  document.getElementById('numberTwo').innerHTML = ranAss;
+  console.log(ranAss);
+}
+function assignment3(){
+  let sibs = [1,2,4,5,6];
 
 
+  let ranAss = Math.floor((Math.random()* sibs.length)+1);
 
-  document.getElementById('number').innerHTML = ranAss;
+
+  // sibs.splice(index,1);
+
+  document.getElementById('numberThree').innerHTML = ranAss;
+  console.log(ranAss);
+}
+function assignment4(){
+  let sibs = [1,2,3,5,6];
+
+
+  let ranAss = Math.floor((Math.random()* sibs.length)+1);
+
+
+  // sibs.splice(index,1);
+
+  document.getElementById('numberFour').innerHTML = ranAss;
+  console.log(ranAss);
+}
+function assignment5(){
+  let sibs = [1,2,3,4,6];
+
+
+  let ranAss = Math.floor((Math.random()* sibs.length)+1);
+
+
+  // sibs.splice(index,1);
+
+  document.getElementById('numberFive').innerHTML = ranAss;
+  console.log(ranAss);
+}
+function assignment6(){
+  let sibs = [1,2,3,4,5];
+
+
+  let ranAss = Math.floor((Math.random()* sibs.length)+1);
+
+
+  // sibs.splice(index,1);
+
+  document.getElementById('numberSix').innerHTML = ranAss;
   console.log(ranAss);
 }
