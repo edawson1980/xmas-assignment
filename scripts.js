@@ -1,10 +1,10 @@
 let sibs = [];
-const randoms = 6;
+const randoms = 7;
 
 
 function assignment(){
 
-  for(let i=0;i<randoms;i++){
+  for(let i=1;i<randoms;i++){
     sibs.push(i);
   }
 
@@ -13,7 +13,8 @@ function assignment(){
 
 
 
- // let ranAss = Math.floor(Math.random()* sibs.length);
+ let index = Math.floor(Math.random()* sibs.length);
+ let ranAss = sibs[index];
 
 
 
